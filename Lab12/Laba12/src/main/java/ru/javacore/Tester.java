@@ -78,4 +78,16 @@ public class Tester {
         System.out.println("Name: " + name + "\nSurname: " + surname + "\nSalary: " + salary + "\nExperience in years: "+
                 experienceInYears + "\nEnglish level: " + englishLevel);
     }
+
+   public static int sum(int a, int b){
+        return a + b;
+   }
+
+    public static int summ(int a, int b, int c){
+        return a + b + c;
+    }
+
+    public static int summm(int a, int b, int c, int d){
+        return a + b + c + d;
+    }
 }
